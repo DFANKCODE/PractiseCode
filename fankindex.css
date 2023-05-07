@@ -1,0 +1,85 @@
+
+*{
+   padding: 0; /*元素內*/
+   margin: 0; /*元素與元素之間*/
+   list-style: none;/*處理清單前面 符號*/
+   line-height: 20px; /*行與行間高度*/
+  letter-spacing: 1.5px; /*字與字之間寬度*/
+  font-family: "Microsoft JhengHei" /*字型*/
+
+
+}
+
+img{
+    /*vertical-align: middle;*/
+    width: 100%;
+
+    
+}
+
+body{
+position: relative;
+}
+
+
+.fankgo{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.fanktest{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.fankfox{
+   width: 30%; 
+}
+
+.fankphone{
+    width: 20%;
+}
+
+.fankphone img{
+    height: 25%;
+}
+
+.ad{
+    width: 200px;
+    height: 200px;
+    background-color: olivedrab;
+    position: fixed;
+   top:0;
+   left:0;
+    right:0;
+    bottom:0;
+    margin: auto;
+}
+
+a{
+    text-decoration: none; /*文字去底線*/
+    color: white;/*文字顏色*/
+    font-size: 20px;/*文字大小*/
+    padding-left: 2px;
+}
+
+a:hover{
+color: black;
+background-color: white;
+border: 1px solid black; /*外框*/
+}
+/*處理滑鼠滑到目標的動態效果*/
+
+.btn{
+    position: absolute;
+    width:30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: black;
+    border-radius: 50%;
+    border: 1px solid white;
+    top:-10px;
+    right: -10px;
+}
